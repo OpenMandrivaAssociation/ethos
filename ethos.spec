@@ -59,6 +59,7 @@ Requires: %{libname} = %{version}-%{release}
 Summary: Development package for %{name}
 Group: Development/C
 Requires: %{libname} = %{version}-%{release}
+Requires: %{libuiname} = %{version}-%{release}
 Provides: %{name}-devel
 
 %description -n %{develname}
