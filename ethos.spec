@@ -109,6 +109,7 @@ rm -rf %{buildroot}
 %{_libdir}/girepository-1.0/Ethos-%{api_level}.typelib
 
 %files -n %{libuiname}
+%defattr(-,root,root,-)
 %{_libdir}/libethos-ui-%{api_level}.so.*
 %{_datadir}/ethos
 
