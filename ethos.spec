@@ -14,7 +14,7 @@ Release: %{release}
 Source0: %{name}-%{version}.tar.bz2
 License: LGPLv2
 Group: System/Libraries
-Url: http://git.dronelabs.com/ethos/about/
+Url: https://git.dronelabs.com/ethos/about/
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 BuildRequires: gtk2-devel
