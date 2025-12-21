@@ -17,6 +17,11 @@ Group: System/Libraries
 Url: https://git.dronelabs.com/ethos/about/
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: gtk2-devel
 BuildRequires: gjs-devel
 BuildRequires: python-devel
