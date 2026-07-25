@@ -1,6 +1,6 @@
 %define name ethos
 %define version 0.2.2
-%define release %mkrel 3
+%define release 4
 %define major 0
 %define api_level 1.0
 %define libname %mklibname %{name}_ %{major}
